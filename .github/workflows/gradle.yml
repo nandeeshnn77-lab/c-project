@@ -31,5 +31,4 @@ jobs:
         run: mvn clean package
 
       - name: Run Application
-        run: java -cp target/classes App
-  
+        run: java -cp target/classes com.example.App
